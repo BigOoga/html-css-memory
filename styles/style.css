@@ -22,3 +22,20 @@ header{
     color: white;
 }
 
+.col{
+float: left;
+border-radius: 15px;
+background-color: thistle;
+height: 350px;
+width: calc(25% - (0.7% * 2 ));
+margin: 0.7%;
+
+
+}
+
+.container{
+    width: 70%;
+    margin: 50px 10%;
+    background-color: teal;
+    height: 900px;
+}
