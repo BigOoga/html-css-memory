@@ -23,6 +23,7 @@ header{
 }
 
 .col{
+    position: relative;
 float: left;
 border-radius: 15px;
 background-image: url("../img/pattern.png");
@@ -30,6 +31,7 @@ background-size: contain;
 height: 350px;
 width: calc(25% - (0.7% * 2 ));
 margin: 0.7%;
+font-size: 40px;
 }
 
 #flipped{
@@ -39,18 +41,35 @@ margin: 0.7%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    color: rgb(255, 0, 157);
 }
 
 .card-text{
     position: absolute;
     bottom: 5%;
-    left: 25%;
-    color: rgb(255, 0, 157);
+    left: 30%;
+    
 }
-
 
 .container{
     width: 70%;
     margin: 50px 15%;
     background-color: teal;
+}
+
+#tractor.col:hover{
+    background-image: url("../img/noun_Tractor_3134797.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#tractor.col:hover::after{
+    content: "Tractor";
+    color: rgb(255, 166, 0);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
 }
