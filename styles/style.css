@@ -24,14 +24,18 @@ header{
 
 .col{
     position: relative;
-float: left;
-border-radius: 15px;
-background-image: url("../img/pattern.png");
-background-size: contain;
-height: 350px;
-width: calc(25% - (0.7% * 2 ));
-margin: 0.7%;
-font-size: 40px;
+    float: left;
+    border-radius: 15px;
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    height: 350px;
+    width: calc(25% - (0.7% * 2 ));
+    margin: 0.7%;
+    margin-bottom: 2%;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid grey;
+    /*box-shadow: 7px 7px 10px black;*/
 }
 
 #flipped{
@@ -156,4 +160,11 @@ font-size: 40px;
     position: absolute;
     bottom: 5%;
     left: 25%;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
 }
