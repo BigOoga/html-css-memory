@@ -25,17 +25,32 @@ header{
 .col{
 float: left;
 border-radius: 15px;
-background-color: thistle;
+background-image: url("../img/pattern.png");
+background-size: contain;
 height: 350px;
 width: calc(25% - (0.7% * 2 ));
 margin: 0.7%;
-
-
 }
+
+#flipped{
+    background-image: url("../img/noun_air_balloon_3134741.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    color: rgb(255, 0, 157);
+}
+
 
 .container{
     width: 70%;
-    margin: 50px 10%;
+    margin: 50px 15%;
     background-color: teal;
-    height: 900px;
 }
