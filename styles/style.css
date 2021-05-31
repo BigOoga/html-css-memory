@@ -2,11 +2,23 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+header{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
 }
 
