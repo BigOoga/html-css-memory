@@ -50,9 +50,9 @@ header{
 
 .card-text{
     position: absolute;
+    text-align: center;
+    width: 100%;
     bottom: 5%;
-    left: 30%;
-    
 }
 
 .container{
@@ -74,7 +74,8 @@ header{
     color: rgb(255, 166, 0);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 #cruise.col:hover{
@@ -91,7 +92,8 @@ header{
     color: rgb(0, 204, 255);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 #bicycle.col:hover{
@@ -108,7 +110,8 @@ header{
     color: rgb(0, 255, 115);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 #sub.col:hover{
@@ -125,7 +128,8 @@ header{
     color: rgb(0, 255, 115);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 #tram.col:hover{
@@ -142,7 +146,8 @@ header{
     color: rgb(120, 0, 218);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 #baloon.col:hover{
@@ -159,7 +164,8 @@ header{
     color: rgb(255, 0, 157);
     position: absolute;
     bottom: 5%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
 }
 
 footer{
