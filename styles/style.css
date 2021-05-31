@@ -20,6 +20,7 @@ header{
     text-transform: uppercase;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px black;
 }
 
 .col{
@@ -35,7 +36,7 @@ header{
     font-size: 40px;
     font-weight: bold;
     border: 1px solid grey;
-    /*box-shadow: 7px 7px 10px black;*/
+    box-shadow: 1px 1px 3px black;
 }
 
 #flipped{
