@@ -54,7 +54,6 @@ font-size: 40px;
 .container{
     width: 70%;
     margin: 50px 15%;
-    background-color: teal;
 }
 
 #tractor.col:hover{
@@ -69,6 +68,91 @@ font-size: 40px;
 #tractor.col:hover::after{
     content: "Tractor";
     color: rgb(255, 166, 0);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#cruise.col:hover{
+    background-image: url("../img/noun_Cruise_Ship_3134824.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#cruise.col:hover::after{
+    content: "Cruise Ship";
+    color: rgb(0, 204, 255);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#bicycle.col:hover{
+    background-image: url("../img/noun_Bicycle_3134821.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#bicycle.col:hover::after{
+    content: "Bicycle";
+    color: rgb(0, 255, 115);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#sub.col:hover{
+    background-image: url("../img/noun_Submarine_3134738.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#sub.col:hover::after{
+    content: "Submarine";
+    color: rgb(0, 255, 115);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#tram.col:hover{
+    background-image: url("../img/noun_Tram_3134750.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#tram.col:hover::after{
+    content: "Tram";
+    color: rgb(120, 0, 218);
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+}
+
+#baloon.col:hover{
+    background-image: url("../img/noun_air_balloon_3134741.png");
+    background-color: white;
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#baloon.col:hover::after{
+    content: "Air Baloon";
+    color: rgb(255, 0, 157);
     position: absolute;
     bottom: 5%;
     left: 25%;
