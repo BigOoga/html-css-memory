@@ -37,12 +37,13 @@ header{
     font-weight: bold;
     border: 1px solid grey;
     box-shadow: 1px 1px 3px black;
+    cursor: pointer;
 }
 
 #flipped{
     background-image: url("../img/noun_air_balloon_3134741.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -64,7 +65,7 @@ header{
 #tractor.col:hover{
     background-image: url("../img/noun_Tractor_3134797.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -82,7 +83,7 @@ header{
 #cruise.col:hover{
     background-image: url("../img/noun_Cruise_Ship_3134824.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -100,7 +101,7 @@ header{
 #bicycle.col:hover{
     background-image: url("../img/noun_Bicycle_3134821.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -118,7 +119,7 @@ header{
 #sub.col:hover{
     background-image: url("../img/noun_Submarine_3134738.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -136,7 +137,7 @@ header{
 #tram.col:hover{
     background-image: url("../img/noun_Tram_3134750.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -154,7 +155,7 @@ header{
 #baloon.col:hover{
     background-image: url("../img/noun_air_balloon_3134741.png");
     background-color: white;
-    background-size: 250px ;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
